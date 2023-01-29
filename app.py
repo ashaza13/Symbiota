@@ -1,7 +1,9 @@
-from flask import Flask
+import os
 
-app = Flask(__name__)
+from flask import Flask, flash, redirect, render_template, request, session, url_for
+
+app = Flask(__name__, template_folder="templates")
 
 @app.route("/")
-def hello_world():
-    return "<p>Hello, World!</p>"
+def index():
+    return render_template("index.html")
