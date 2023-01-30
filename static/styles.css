@@ -12,6 +12,7 @@ body {
     transition: 0.5s;
     text-align: center;
     background-size: 200% auto;
+    text-transform: uppercase;
 }
 
 .nav-btn:hover {
@@ -22,3 +23,36 @@ body {
 .btn-1 {
     background-image: linear-gradient(to right, #388E3C 0%, #8BC34A 51%, #388E3C 100%);
   }
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+#header-row {
+    background-image: url(../static/banner.png);
+    height: 40vh;
+    background-repeat: no-repeat;
+}
+
+.form-control {
+    border-radius: 25px;
+}
+
+.input-group {
+    width: 100%;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+h3 {
+    font-weight: bold;
+    color: white;
+}
+
+input {
+    outline: none;
+}
